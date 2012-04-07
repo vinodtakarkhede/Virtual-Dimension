@@ -1,0 +1,14 @@
+mingw-release/TrayIconsManager.o: TrayIconsManager.cpp StdAfx.h \
+ TrayIconsManager.h VirtualDimension.h resource.h transparency.h \
+ trayicon.h HotkeyConfig.h PlatformHelper.h HotkeyManager.h Config.h \
+ Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h desktop.h \
+ settings.h tooltip.h HotKeyManager.h WallPaper.h TaskPool.h \
+ Transparency.h AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h \
+ BalloonNotif.h MouseWarp.h stdafx.h
+TrayIconsManager.cpp StdAfx.h :
+ TrayIconsManager.h VirtualDimension.h resource.h transparency.h :
+ trayicon.h HotkeyConfig.h PlatformHelper.h HotkeyManager.h Config.h :
+ Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h desktop.h :
+ settings.h tooltip.h HotKeyManager.h WallPaper.h TaskPool.h :
+ Transparency.h AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h :
+ BalloonNotif.h MouseWarp.h stdafx.h :

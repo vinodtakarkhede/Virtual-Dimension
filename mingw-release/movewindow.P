@@ -1,0 +1,16 @@
+mingw-release/movewindow.o: movewindow.cpp StdAfx.h movewindow.h window.h \
+ desktop.h settings.h Config.h tooltip.h HotKeyManager.h WallPaper.h \
+ TaskPool.h TrayIconsManager.h Transparency.h AlwaysOnTop.h \
+ HidingMethod.h SharedMenuBuffer.h BalloonNotif.h VirtualDimension.h \
+ resource.h transparency.h trayicon.h HotkeyConfig.h PlatformHelper.h \
+ HotkeyManager.h Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h \
+ MouseWarp.h stdafx.h DesktopManager.h OnScreenDisplay.h Locale.h \
+ StdString.h
+movewindow.cpp StdAfx.h movewindow.h window.h :
+ desktop.h settings.h Config.h tooltip.h HotKeyManager.h WallPaper.h :
+ TaskPool.h TrayIconsManager.h Transparency.h AlwaysOnTop.h :
+ HidingMethod.h SharedMenuBuffer.h BalloonNotif.h VirtualDimension.h :
+ resource.h transparency.h trayicon.h HotkeyConfig.h PlatformHelper.h :
+ HotkeyManager.h Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h :
+ MouseWarp.h stdafx.h DesktopManager.h OnScreenDisplay.h Locale.h :
+ StdString.h :

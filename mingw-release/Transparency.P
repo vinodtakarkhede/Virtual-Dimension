@@ -1,0 +1,14 @@
+mingw-release/Transparency.o: Transparency.cpp StdAfx.h transparency.h \
+ settings.h Config.h VirtualDimension.h resource.h trayicon.h \
+ TrayIconsManager.h HotkeyConfig.h PlatformHelper.h HotkeyManager.h \
+ Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h desktop.h \
+ tooltip.h HotKeyManager.h WallPaper.h TaskPool.h Transparency.h \
+ AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h BalloonNotif.h \
+ MouseWarp.h stdafx.h
+Transparency.cpp StdAfx.h transparency.h :
+ settings.h Config.h VirtualDimension.h resource.h trayicon.h :
+ TrayIconsManager.h HotkeyConfig.h PlatformHelper.h HotkeyManager.h :
+ Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h desktop.h :
+ tooltip.h HotKeyManager.h WallPaper.h TaskPool.h Transparency.h :
+ AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h BalloonNotif.h :
+ MouseWarp.h stdafx.h :

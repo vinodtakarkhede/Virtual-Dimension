@@ -1,0 +1,18 @@
+mingw-release/WindowsManager.o: WindowsManager.cpp StdAfx.h \
+ windowsmanager.h Desktop.h settings.h Config.h tooltip.h HotKeyManager.h \
+ WallPaper.h TaskPool.h Window.h desktop.h TrayIconsManager.h \
+ Transparency.h AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h \
+ BalloonNotif.h ShellHook.h WindowsList.h HotkeyConfig.h PlatformHelper.h \
+ HotkeyManager.h Settings.h VirtualDimension.h resource.h transparency.h \
+ trayicon.h alwaysontop.h ToolTip.h FastWindow.h MouseWarp.h stdafx.h \
+ movewindow.h window.h DesktopManager.h OnScreenDisplay.h Locale.h \
+ StdString.h HookDLL.h
+WindowsManager.cpp StdAfx.h :
+ windowsmanager.h Desktop.h settings.h Config.h tooltip.h HotKeyManager.h :
+ WallPaper.h TaskPool.h Window.h desktop.h TrayIconsManager.h :
+ Transparency.h AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h :
+ BalloonNotif.h ShellHook.h WindowsList.h HotkeyConfig.h PlatformHelper.h :
+ HotkeyManager.h Settings.h VirtualDimension.h resource.h transparency.h :
+ trayicon.h alwaysontop.h ToolTip.h FastWindow.h MouseWarp.h stdafx.h :
+ movewindow.h window.h DesktopManager.h OnScreenDisplay.h Locale.h :
+ StdString.h HookDLL.h :

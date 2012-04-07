@@ -1,0 +1,4 @@
+mingw-release/ShellHook.o: ShellHook.cpp StdAfx.h shellhook.h Locale.h \
+ StdString.h Resource.h
+ShellHook.cpp StdAfx.h shellhook.h Locale.h :
+ StdString.h Resource.h :

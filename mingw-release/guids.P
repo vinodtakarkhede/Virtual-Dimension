@@ -1,0 +1,2 @@
+mingw-release/guids.o: guids.c
+guids.c :

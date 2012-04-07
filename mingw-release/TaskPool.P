@@ -1,0 +1,8 @@
+mingw-release/TaskPool.o: TaskPool.cpp StdAfx.h TaskPool.h Window.h \
+ desktop.h settings.h Config.h tooltip.h HotKeyManager.h WallPaper.h \
+ TrayIconsManager.h Transparency.h AlwaysOnTop.h HidingMethod.h \
+ SharedMenuBuffer.h BalloonNotif.h
+TaskPool.cpp StdAfx.h TaskPool.h Window.h :
+ desktop.h settings.h Config.h tooltip.h HotKeyManager.h WallPaper.h :
+ TrayIconsManager.h Transparency.h AlwaysOnTop.h HidingMethod.h :
+ SharedMenuBuffer.h BalloonNotif.h :

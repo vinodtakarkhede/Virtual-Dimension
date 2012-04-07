@@ -1,0 +1,2 @@
+mingw-release/HotKeyControl.o: HotKeyControl.cpp StdAfx.h HotKeyControl.h
+HotKeyControl.cpp StdAfx.h HotKeyControl.h :

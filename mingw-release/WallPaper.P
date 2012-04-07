@@ -1,0 +1,4 @@
+mingw-release/WallPaper.o: WallPaper.cpp StdAfx.h WallPaper.h \
+ PlatformHelper.h BackgroundColor.h ExplorerWrapper.h FastWindow.h
+WallPaper.cpp StdAfx.h WallPaper.h :
+ PlatformHelper.h BackgroundColor.h ExplorerWrapper.h FastWindow.h :

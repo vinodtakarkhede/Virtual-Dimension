@@ -1,0 +1,4 @@
+mingw-release/SharedMenuBuffer.o: SharedMenuBuffer.cpp stdafx.h \
+ SharedMenuBuffer.h
+SharedMenuBuffer.cpp stdafx.h :
+ SharedMenuBuffer.h :

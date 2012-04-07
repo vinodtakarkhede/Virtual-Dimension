@@ -1,0 +1,4 @@
+mingw-release/PlatformHelper.o: PlatformHelper.cpp StdAfx.h \
+ platformhelper.h Locale.h StdString.h Resource.h
+PlatformHelper.cpp StdAfx.h :
+ platformhelper.h Locale.h StdString.h Resource.h :

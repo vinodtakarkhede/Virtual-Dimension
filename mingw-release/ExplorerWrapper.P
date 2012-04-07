@@ -1,0 +1,10 @@
+mingw-release/ExplorerWrapper.o: ExplorerWrapper.cpp StdAfx.h \
+ ExplorerWrapper.h FastWindow.h PlatformHelper.h TrayIconsManager.h \
+ DesktopManager.h desktop.h settings.h Config.h tooltip.h HotKeyManager.h \
+ WallPaper.h TaskPool.h OnScreenDisplay.h Transparency.h HotkeyConfig.h \
+ HotkeyManager.h Settings.h
+ExplorerWrapper.cpp StdAfx.h :
+ ExplorerWrapper.h FastWindow.h PlatformHelper.h TrayIconsManager.h :
+ DesktopManager.h desktop.h settings.h Config.h tooltip.h HotKeyManager.h :
+ WallPaper.h TaskPool.h OnScreenDisplay.h Transparency.h HotkeyConfig.h :
+ HotkeyManager.h Settings.h :

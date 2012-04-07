@@ -1,0 +1,14 @@
+mingw-release/HotkeyConfig.o: HotkeyConfig.cpp StdAfx.h HotkeyConfig.h \
+ PlatformHelper.h HotkeyManager.h Config.h Settings.h VirtualDimension.h \
+ resource.h transparency.h trayicon.h TrayIconsManager.h alwaysontop.h \
+ ToolTip.h FastWindow.h Window.h desktop.h settings.h tooltip.h \
+ HotKeyManager.h WallPaper.h TaskPool.h Transparency.h AlwaysOnTop.h \
+ HidingMethod.h SharedMenuBuffer.h BalloonNotif.h MouseWarp.h stdafx.h \
+ Resource.h Locale.h StdString.h
+HotkeyConfig.cpp StdAfx.h HotkeyConfig.h :
+ PlatformHelper.h HotkeyManager.h Config.h Settings.h VirtualDimension.h :
+ resource.h transparency.h trayicon.h TrayIconsManager.h alwaysontop.h :
+ ToolTip.h FastWindow.h Window.h desktop.h settings.h tooltip.h :
+ HotKeyManager.h WallPaper.h TaskPool.h Transparency.h AlwaysOnTop.h :
+ HidingMethod.h SharedMenuBuffer.h BalloonNotif.h MouseWarp.h stdafx.h :
+ Resource.h Locale.h StdString.h :

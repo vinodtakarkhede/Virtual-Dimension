@@ -1,0 +1,2 @@
+mingw-release/Config.o: Config.cpp StdAfx.h Config.h
+Config.cpp StdAfx.h Config.h :

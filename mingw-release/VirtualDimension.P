@@ -1,0 +1,20 @@
+mingw-release/VirtualDimension.o: VirtualDimension.cpp stdafx.h \
+ VirtualDimension.h resource.h transparency.h trayicon.h \
+ TrayIconsManager.h HotkeyConfig.h PlatformHelper.h HotkeyManager.h \
+ Config.h Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h \
+ desktop.h settings.h tooltip.h HotKeyManager.h WallPaper.h TaskPool.h \
+ Transparency.h AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h \
+ BalloonNotif.h MouseWarp.h desktopmanager.h OnScreenDisplay.h \
+ WindowsManager.h Desktop.h ShellHook.h WindowsList.h hotkeymanager.h \
+ shellhook.h fastwindow.h HotKeyControl.h LinkControl.h ExplorerWrapper.h \
+ HookDLL.h Locale.h StdString.h CmdLine.h
+VirtualDimension.cpp stdafx.h :
+ VirtualDimension.h resource.h transparency.h trayicon.h :
+ TrayIconsManager.h HotkeyConfig.h PlatformHelper.h HotkeyManager.h :
+ Config.h Settings.h alwaysontop.h ToolTip.h FastWindow.h Window.h :
+ desktop.h settings.h tooltip.h HotKeyManager.h WallPaper.h TaskPool.h :
+ Transparency.h AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h :
+ BalloonNotif.h MouseWarp.h desktopmanager.h OnScreenDisplay.h :
+ WindowsManager.h Desktop.h ShellHook.h WindowsList.h hotkeymanager.h :
+ shellhook.h fastwindow.h HotKeyControl.h LinkControl.h ExplorerWrapper.h :
+ HookDLL.h Locale.h StdString.h CmdLine.h :

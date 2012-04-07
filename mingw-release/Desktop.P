@@ -1,0 +1,16 @@
+mingw-release/Desktop.o: Desktop.cpp StdAfx.h Desktop.h settings.h \
+ Config.h tooltip.h HotKeyManager.h WallPaper.h TaskPool.h \
+ WindowsManager.h Window.h desktop.h TrayIconsManager.h Transparency.h \
+ AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h BalloonNotif.h \
+ ShellHook.h WindowsList.h HotkeyConfig.h PlatformHelper.h \
+ HotkeyManager.h Settings.h DesktopManager.h OnScreenDisplay.h \
+ VirtualDimension.h resource.h transparency.h trayicon.h alwaysontop.h \
+ ToolTip.h FastWindow.h MouseWarp.h stdafx.h Locale.h StdString.h
+Desktop.cpp StdAfx.h Desktop.h settings.h :
+ Config.h tooltip.h HotKeyManager.h WallPaper.h TaskPool.h :
+ WindowsManager.h Window.h desktop.h TrayIconsManager.h Transparency.h :
+ AlwaysOnTop.h HidingMethod.h SharedMenuBuffer.h BalloonNotif.h :
+ ShellHook.h WindowsList.h HotkeyConfig.h PlatformHelper.h :
+ HotkeyManager.h Settings.h DesktopManager.h OnScreenDisplay.h :
+ VirtualDimension.h resource.h transparency.h trayicon.h alwaysontop.h :
+ ToolTip.h FastWindow.h MouseWarp.h stdafx.h Locale.h StdString.h :

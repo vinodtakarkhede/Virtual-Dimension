@@ -1,0 +1,6 @@
+mingw-release/ApplicationListDlg.o: ApplicationListDlg.cpp StdAfx.h \
+ Resource.h ApplicationListDlg.h PlatformHelper.h Config.h Locale.h \
+ StdString.h
+ApplicationListDlg.cpp StdAfx.h :
+ Resource.h ApplicationListDlg.h PlatformHelper.h Config.h Locale.h :
+ StdString.h :

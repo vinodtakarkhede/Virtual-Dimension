@@ -1,0 +1,2 @@
+mingw-release/AlwaysOnTop.o: AlwaysOnTop.cpp StdAfx.h alwaysontop.h
+AlwaysOnTop.cpp StdAfx.h alwaysontop.h :

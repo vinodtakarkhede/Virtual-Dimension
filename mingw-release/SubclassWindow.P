@@ -1,0 +1,2 @@
+mingw-release/SubclassWindow.o: SubclassWindow.cpp StdAfx.h HookDLL.h
+SubclassWindow.cpp StdAfx.h HookDLL.h :

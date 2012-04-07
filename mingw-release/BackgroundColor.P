@@ -1,0 +1,4 @@
+mingw-release/BackgroundColor.o: BackgroundColor.cpp StdAfx.h \
+ BackgroundColor.h
+BackgroundColor.cpp StdAfx.h :
+ BackgroundColor.h :

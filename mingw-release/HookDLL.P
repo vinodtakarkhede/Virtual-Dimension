@@ -1,0 +1,4 @@
+mingw-release/HookDLL.o: HookDLL.cpp stdafx.h SharedMenuBuffer.h \
+ HookDLL.h
+HookDLL.cpp stdafx.h SharedMenuBuffer.h :
+ HookDLL.h :

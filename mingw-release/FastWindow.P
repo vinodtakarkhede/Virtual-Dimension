@@ -1,0 +1,2 @@
+mingw-release/FastWindow.o: FastWindow.cpp StdAfx.h fastwindow.h
+FastWindow.cpp StdAfx.h fastwindow.h :

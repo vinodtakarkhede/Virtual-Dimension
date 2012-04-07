@@ -1,0 +1,16 @@
+mingw-release/BackgroundDisplayMode.o: BackgroundDisplayMode.cpp StdAfx.h \
+ BackgroundDisplayMode.h Settings.h Config.h PlatformHelper.h \
+ VirtualDimension.h resource.h transparency.h trayicon.h \
+ TrayIconsManager.h HotkeyConfig.h HotkeyManager.h alwaysontop.h \
+ ToolTip.h FastWindow.h Window.h desktop.h settings.h tooltip.h \
+ HotKeyManager.h WallPaper.h TaskPool.h Transparency.h AlwaysOnTop.h \
+ HidingMethod.h SharedMenuBuffer.h BalloonNotif.h MouseWarp.h stdafx.h \
+ Locale.h StdString.h
+BackgroundDisplayMode.cpp StdAfx.h :
+ BackgroundDisplayMode.h Settings.h Config.h PlatformHelper.h :
+ VirtualDimension.h resource.h transparency.h trayicon.h :
+ TrayIconsManager.h HotkeyConfig.h HotkeyManager.h alwaysontop.h :
+ ToolTip.h FastWindow.h Window.h desktop.h settings.h tooltip.h :
+ HotKeyManager.h WallPaper.h TaskPool.h Transparency.h AlwaysOnTop.h :
+ HidingMethod.h SharedMenuBuffer.h BalloonNotif.h MouseWarp.h stdafx.h :
+ Locale.h StdString.h :

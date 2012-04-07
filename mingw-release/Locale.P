@@ -1,0 +1,4 @@
+mingw-release/Locale.o: Locale.cpp StdAfx.h Resource.h Settings.h \
+ Config.h Locale.h StdString.h
+Locale.cpp StdAfx.h Resource.h Settings.h :
+ Config.h Locale.h StdString.h :

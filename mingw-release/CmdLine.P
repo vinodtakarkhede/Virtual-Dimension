@@ -1,0 +1,4 @@
+mingw-release/CmdLine.o: CmdLine.cpp StdAfx.h CmdLine.h Locale.h \
+ StdString.h
+CmdLine.cpp StdAfx.h CmdLine.h Locale.h :
+ StdString.h :
